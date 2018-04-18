@@ -18,7 +18,7 @@ public class Checking extends Account{
 	}
 	// List methods
 	private void setDebitCard() {
-		debitCardNumber = (int) (Math.random() * Math.pow(10, 16));
+		debitCardNumber = (int) (Math.random() * Math.pow(10, 12));
 		debitCardPIN = (int) (Math.random() * Math.pow(10, 4));
 	}
 	public void showInfo() {
